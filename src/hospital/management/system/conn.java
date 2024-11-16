@@ -13,7 +13,7 @@ public class conn {
     public conn() {
         try {
             // Establish the connection
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Hospital_Management_System", "root", "sairam1212@");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Hospital_Management_System", "xxxx", "xxxx");
             // Create a statement object to execute SQL queries
             statement = connection.createStatement();
 
